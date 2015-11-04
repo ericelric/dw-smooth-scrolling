@@ -1,0 +1,55 @@
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+#input-field {
+	width: 85px;
+}
+section {
+	color: white;
+	text-align: justify;
+	padding: 180px 30px;
+}
+section h2{
+	text-align: center;	
+}
+
+#slide1{	
+	color: #555;
+	background-color: #eee;
+}
+#slide1 hr{
+	border-color: #555;
+}
+
+#slide2{
+	background-color: #ff9681;
+}
+
+#slide3{
+	background-color: #8f8d8e;
+}
+
+#slide4{
+	background-color: #8ac5ce;
+}
+
+#slide5{
+	background-color: #676c7f;
+}
+
+#slide6{
+	color: #555;
+	background-color: #e1d5bf;
+}
+#slide6 hr{
+	border-color: #555;
+}

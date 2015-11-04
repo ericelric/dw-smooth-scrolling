@@ -1,5 +1,5 @@
 var $root = $('html, body'); //for increased performance, so that it doesn't run every single time an anchor is clicked
-var speed = 1000; //animation time in ms
+var speed = 300; //animation time in ms
 var animation = 'linear'; //animation style 'linear' works without jQuery UI
 
 //main function

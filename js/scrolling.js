@@ -11,10 +11,22 @@ $('a').click(function() {
 });
 
 // helper functions just for the demonstration
+function updateEffectText(){
+	$('.dropdown-toggle').html(animation + ': ' + speed + ' ms' + ' <span class="caret"></span>');
+}
+
 $(".user").click(function() {
     animation = $(this).attr("data-name");
+   	updateEffectText();
+
 });
 
 $("#ok").click(function() {
     speed = parseInt($('#input-field').val());
+    updateEffectText();
 });
+
+$( document ).ready(function() {
+    updateEffectText();
+});
+
